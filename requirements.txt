@@ -1,0 +1,5 @@
+llama-stack-client
+dotenv
+logging
+pdf2image==1.17.0
+aioboto3==14.2.0
