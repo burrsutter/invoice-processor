@@ -69,3 +69,17 @@ python register-vision-model.py
 ```bash
 python list-models.py
 ```
+
+
+Monitor
+
+```bash
+while true; do
+  clear
+  echo "File count in invoices/intake:"
+  mc ls --recursive myminio/invoices/json-header | wc -l
+  sleep 3
+done
+```
+
+edit
